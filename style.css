@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+ul li a {
+    text-decoration: none;
+    list-style: none;
+}
+
+a {
+    text-decoration: none; 
+    color: initial;
+    cursor: pointer;
+}
+
+body {
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: #000000;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+h2 {
+    color: #00ff00;
+}
+
+header {
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.nav_inicial {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.nav_inicial_nav ul {
+    display: flex;
+    gap: 20px; 
+    list-style: none;
+}
+
+.nav_inicial_nav ul li a {
+    color: #00ff00;
+}
+
+.nav_inicial_nav ul li a:hover {
+    color: white;
+}
+
+.titulo_imagem {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.titulo_impacto {
+    font-weight: bold;
+    font-size: 260%;
+    flex-wrap: wrap;
+}
+
+.img {
+    width: 50vw;
+    height: 50vw;
+    max-width: 250px;
+    max-height: 250px;
+    border-radius: 50%; 
+    object-fit: cover; 
+    object-position: top;
+    display: block; 
+    border: 3px solid #ffffff;
+}
+
+.link_header ul {
+    display: flex;
+    gap: 20px;
+    padding: 0 0 5% 0;
+    margin: 0;
+}
+
+.link_header ul li {
+    list-style: none; 
+}
+
+.link_header ul li a {
+    text-decoration: none; 
+    font-size: 20px; 
+    font-weight: bold; 
+    transition: color 0.3s; 
+}
+
+.link_header ul li a:hover {
+    color: white; 
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00ff00; 
+    color: #121212; 
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 8px; 
+    transition: background-color 0.3s;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #1E201E; 
+}
+
+.sobre_mim {
+    margin: 0 5% 5% 5%;
+}
+ .sobre_mim p {
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif; /* Usando uma fonte mais moderna */
+    font-size: 18px; /* Aumenta o tamanho da fonte */
+    line-height: 1.6; /* Aumenta o espaçamento entre as linhas */
+    margin: 0;
+    padding: 10px 0;
+ }
+
+.neon-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #00ff00;
+    box-shadow: 0 0 10px #00ff00, 0 0 40px #00ff00;
+    background-color: #121212;
+    font-weight: bold;
+    padding: 2%;
+    margin: 10% 5% 10% 5%;
+}
+
+.neon-box ul {
+    display: flex;  
+    padding: 0; 
+    margin: 0;  
+}
+
+.neon-box ul li {
+    list-style: none;
+    margin-right: 20px;  
+    padding-right: 20px;  
+    border-right: 2px solid #00ff00;  
+}
+
+.neon-box ul li:last-child {
+    border-right: none;  
+}
+
+
+
+/* Seção Projetos */
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    width: 100%;
+}
+
+.projetos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 0 5% 0;
+    gap: 40px;
+}
+
+
+/* Container de projetos */
+.projetos-container {
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* Lista de Projetos */
+.projetos ul {
+    list-style: none;
+    padding: 0;
+}
+
+.projetos ul li {
+    background: #1f1f1f;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 255, 0, 0.3);
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    margin-bottom: 40px; 
+}
+
+.projetos ul li:last-child {
+    margin-bottom: 0;
+}
+
+/* Efeito de hover */
+.projetos ul li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 15px rgba(0, 255, 0, 0.5);
+}
+
+/* Títulos dos projetos */
+.projetos h3 {
+    font-size: 22px;
+    color: #00ff00;
+    margin-bottom: 10px;
+}
+
+/* Descrição dos projetos */
+.projetos p {
+    font-size: 16px;
+    color: #ddd;
+    margin-bottom: 15px;
+}
+
+/* Botões */
+.btn-2 {
+    background-color: #00ff00;
+    color: #121212;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease-in-out, transform 0.2s;
+}
+
+/* Efeito hover nos botões */
+.btn-2:hover {
+    background-color: #00cc00;
+    transform: scale(1.05);
+}
+
+/* Links de projetos */
+.link_projetos {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* Estilo do Footer */
+footer {
+    margin: 0;
+    padding: 0;
+    background-color: #00cc00;
+    color: white;  
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .titulo_impacto {
+        font-size: 2rem;
+    }
+
+    .img {
+        width: 40vw;
+        height: 40vw;
+    }
+
+    .neon-box ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projetos ul li {
+        padding: 15px;
+    }
+
+    .btn {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+
+    .btn-2 {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+}
+
+
