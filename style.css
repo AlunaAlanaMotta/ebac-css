@@ -16,7 +16,6 @@ a {
 }
 
 body {
-    max-width: 1440px;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -60,7 +59,7 @@ header {
 
 .titulo_imagem {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     gap: 10px;
     
@@ -286,13 +285,29 @@ footer p {
         height: 40vw;
     }
 
+    .nav_inicial_nav {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .nav_inicial_nav ul {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center;
+    }
+
     .neon-box ul {
         flex-direction: column;
         align-items: center;
     }
 
+    .neon-box ul li {
+        border-right: none !important;
+    }
+
     .projetos ul li {
         padding: 15px;
+
     }
 
     .btn {
@@ -305,5 +320,3 @@ footer p {
         font-size: 14px;
     }
 }
-
-
